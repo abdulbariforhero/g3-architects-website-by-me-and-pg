@@ -221,6 +221,20 @@ main {
     width: 150px;
 }
 
+/* footer section style */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Responsive media queries */
 @media screen and (max-width:576px) {
@@ -245,6 +259,11 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .feature-content .card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .feature-image img {
         width: 100%;
         margin-left: 0;
@@ -259,6 +278,7 @@ main {
         gap: 20px;
     }
 }
+
 
 /* tablet or medium devices */
 @media screen and (min-width:577px) and (max-width:992px) {
